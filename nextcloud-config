@@ -1,0 +1,17 @@
+JAIL_IP="192.168.1.3"
+DEFAULT_GW_IP="192.168.1.1"
+INTERFACE="vigb0"
+VNET="on"
+POOL_PATH=""
+DB_PATH="/mnt/RaidZ/nextcloud/ncdb"
+FILES_PATH="/mnt/RaidZ/Cloud"
+PORTS_PATH="/mnt/RaidZ/nextcloud/ports"
+JAIL_NAME="nextcloud"
+TIME_ZONE="America/New_York" # See http://php.net/manual/en/timezones.php
+HOST_NAME="cloud.kntintl.com"
+DATABASE="pgsql"
+STANDALONE_CERT=0
+DNS_CERT=1
+SELFSIGNED_CERT=0
+NO_CERT=0
+TEST_CERT="--test"
