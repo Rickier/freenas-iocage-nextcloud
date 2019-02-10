@@ -61,9 +61,9 @@ if [ -z $INTERFACE ]; then
   echo 'Configuration error: INTERFACE must be set'
   exit 1
 fi
-if [ -z $POOL_PATH ]; then
-  echo 'Configuration error: POOL_PATH must be set'
-  exit 1
+# if [ -z $POOL_PATH ]; then
+#   echo 'Configuration error: POOL_PATH must be set'
+#   exit 1
 fi
 if [ -z $TIME_ZONE ]; then
   echo 'Configuration error: TIME_ZONE must be set'
